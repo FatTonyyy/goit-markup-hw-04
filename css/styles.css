@@ -455,6 +455,19 @@ svg {
 }
 
 .regular-customers-item {
+  display: flex;
+
+  /* width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4%; */
+}
+
+.regular-customers-item + .regular-customers-item {
+  margin-left: 30px;
+}
+
+.regular-customers-link {
   width: 170px;
   height: 92px;
   border: 1px solid #afb1b8;
@@ -464,12 +477,8 @@ svg {
   align-items: center;
 }
 
-.regular-customers-item + .regular-customers-item {
-  margin-left: 30px;
-}
-
-.regular-customers-item:hover,
-.regular-customers-item:focus {
+.regular-customers-link:hover,
+.regular-customers-link:focus {
   color: var(--accent-text-color);
 }
 
@@ -492,9 +501,15 @@ svg {
   padding-bottom: 60px;
 }
 
+.footer-main-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-container {
+}
+
 .logo-footer {
-  display: block;
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -555,7 +570,58 @@ svg {
 
 .address-title {
   font-style: inherit;
+  /* max-width: 231px;
+  margin-right: 70px; */
 }
+
+.our-social-title {
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  /* text-transform: uppercase; */
+  margin-bottom: 20px;
+  color: var(--main-title-color);
+}
+
+.our-social-container {
+  margin-left: 70px;
+  width: 206px;
+}
+
+.our-social-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-social-item {
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.our-social-item + .our-social-item {
+  margin-left: 10px;
+}
+
+.our-social-image {
+  width: 44px;
+  height: 44px;
+  fill: var(--second-text-color);
+  padding: 12px;
+}
+
+.our-social-item:hover,
+.our-social-item:focus {
+  fill: var(--second-text-color);
+  background-color: var(--accent-text-color);
+}
+
+/* .our-social-item:hover svg,
+.our-social-item:focus svg {
+  fill: var(--second-text-color);
+} */
 /*--------------------------PORTFOLIO PAGE-----------------*/
 
 /* .portfolio-container {
@@ -653,7 +719,10 @@ svg {
   color: var(--main-text-color);
 }
 
-.portfolio-image:hover,
-.portfolio-image:focus {
+.portfolio-link:hover,
+.portfolio-link:focus {
   color: var(--accent-text-color);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
