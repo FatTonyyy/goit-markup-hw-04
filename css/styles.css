@@ -12,6 +12,32 @@
   --second-logo-color: #2196f3;
 }
 
+a:active,
+a:focus {
+  outline: none;
+}
+
+input,
+textarea {
+  outline: none;
+}
+input:active,
+textarea:active {
+  outline: none;
+}
+:focus {
+  outline: none;
+}
+textarea {
+  resize: none;
+}
+textarea {
+  resize: vertical;
+}
+textarea {
+  resize: horizontal;
+}
+
 p,
 h1,
 h2,
@@ -749,30 +775,4 @@ button {
   color: var(--accent-text-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
-a:active,
-a:focus {
-  outline: none;
-}
-
-input,
-textarea {
-  outline: none;
-}
-input:active,
-textarea:active {
-  outline: none;
-}
-:focus {
-  outline: none;
-}
-textarea {
-  resize: none;
-}
-textarea {
-  resize: vertical;
-}
-textarea {
-  resize: horizontal;
 }
