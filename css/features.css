@@ -1,0 +1,24 @@
+.features {
+}
+
+.features-container {
+}
+.features-title {
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+.features-list-item {
+  width: calc((100% - 72px) / 3);
+}
+.features-list-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  margin-bottom: 8px;
+}
+.features-list-text {
+}
