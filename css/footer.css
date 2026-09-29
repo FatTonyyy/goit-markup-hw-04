@@ -4,6 +4,11 @@
 
 .footer-container {
   padding: 100px 0;
+  display: flex;
+}
+
+.footer-info-container {
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -14,4 +19,17 @@
 .footer-text {
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-title {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.social-container {
 }

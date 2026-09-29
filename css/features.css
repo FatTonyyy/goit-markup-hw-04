@@ -10,6 +10,23 @@
   display: flex;
   gap: 24px;
 }
+
+.features-list-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 100%;
+  height: 112px;
+  margin-bottom: 8px;
+  padding: 24px 0;
+  
+  background-color: #fff;;
+}
+
+.features-list-icon {
+}
+
 .features-list-item {
   width: calc((100% - 72px) / 3);
 }

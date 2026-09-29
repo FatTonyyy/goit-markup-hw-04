@@ -41,6 +41,10 @@ address {
   font-style: normal;
 }
 
+img {
+  display: block;
+}
+
 /* Base styles */
 
 .logo {
