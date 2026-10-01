@@ -14,21 +14,21 @@
 .features-list-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 100%;
+  width: 264px;
   height: 112px;
   margin-bottom: 8px;
   padding: 24px 0;
-  
-  background-color: #fff;;
+  background-color: #f4f4fd;
 }
 
 .features-list-icon {
 }
 
 .features-list-item {
-  width: calc((100% - 72px) / 3);
+  width: calc((100% - 72px) / 4);
 }
 .features-list-subtitle {
   font-weight: 500;
